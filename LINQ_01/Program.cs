@@ -94,8 +94,8 @@ namespace LINQ_01
 
 
             /////////////(5)
-            //////read the txt file 
-            //string[] words = File.ReadAllLines("C:\\Users\\Compu Me\\Downloads\\dictionary_english.txt");
+            ////read the txt file 
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
 
 
             //int totalCharacters = words.Sum(word => word.Length);
@@ -199,7 +199,7 @@ namespace LINQ_01
             ///////////(2)
 
 
-            string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+            //string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
 
             //var result = words.Select(w => new
             //{
@@ -276,12 +276,12 @@ namespace LINQ_01
 
             ///////////(7)
 
-    //        var result = CustomerList
-    //.SelectMany(c => c.Orders)
-    //.Where(o => o.OrderDate.Year >= 1998);
+            //        var result = CustomerList
+            //.SelectMany(c => c.Orders)
+            //.Where(o => o.OrderDate.Year >= 1998);
 
-    //        foreach (var order in result)
-    //            Console.WriteLine($"OrderID={order.OrderID}, Date={order.OrderDate:d}");
+            //        foreach (var order in result)
+            //            Console.WriteLine($"OrderID={order.OrderID}, Date={order.OrderDate:d}");
 
 
 
