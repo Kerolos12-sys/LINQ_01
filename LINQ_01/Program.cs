@@ -94,7 +94,7 @@ namespace LINQ_01
 
 
             /////////////(5)
-            ////read the txt file 
+            ////read the txt file ... I search for  bin then debug then I put the file  in  net9.0
             //string[] words = File.ReadAllLines("dictionary_english.txt");
 
 
